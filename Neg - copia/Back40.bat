@@ -1,0 +1,1 @@
+@ftp.exe -n -i -s:traeback.txt 10.114.150.25 > ftp.log
