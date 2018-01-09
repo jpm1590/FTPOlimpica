@@ -28,7 +28,7 @@ public class Palabras extends Thread {
 
                 CoFile Remoto, Local;
                 Remoto = new FtpFile("c:/ADX_UDT1/LDCLVSEG." + pru.get(NEGpos.get(i)).get(0), cl);
-                Local = new LocalFile("C:/Users/olimpica/Desktop/jpm1590/Palabras/PALABRA/palabras_17/N" + pru.get(NEGpos.get(i)).get(0) + ".csv");
+                Local = new LocalFile("C:/Users/olimpica/Desktop/jpm1590/Palabras/PALABRAS/palabras_18/N" + pru.get(NEGpos.get(i)).get(0) + ".csv");
                 
                 //CoLoad.copy(Local, Remoto); //DWN
                 CoLoad.copy(Remoto, Local); //UP
